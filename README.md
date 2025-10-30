@@ -23,13 +23,13 @@ A modern, scalable, and production-ready e-commerce platform for clothing brands
 ## 🏗️ Folder Structure
 
 ## clothing-ecommerce/
-## │
-## ├── public/ # Static assets (logo, images, icons)
-## │
-## ├── src/
-## │ ├── api/ # API layer for Supabase requests
-## │ │ ├── supabaseClient.ts
-## │ │ ├── auth.api.ts
+│
+├── public/ # Static assets (logo, images, icons)
+│
+├── src/
+│ ├── api/ # API layer for Supabase requests
+│ │ ├── supabaseClient.ts
+│ │ ├── auth.api.ts
 │ │ ├── products.api.ts
 │ │ ├── cart.api.ts
 │ │ └── orders.api.ts
