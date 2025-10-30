@@ -22,86 +22,76 @@ A modern, scalable, and production-ready e-commerce platform for clothing brands
 
 ## 🏗️ Folder Structure
 
-## clothing-ecommerce/
-│
-├── public/ # Static assets (logo, images, icons)
-│
-├── src/
-│ ├── api/ # API layer for Supabase requests
-│ │ ├── supabaseClient.ts
-│ │ ├── auth.api.ts
-│ │ ├── products.api.ts
-│ │ ├── cart.api.ts
-│ │ └── orders.api.ts
-│ │
-│ ├── app/ # Main app routing and pages
-│ │ ├── App.tsx
-│ │ └── routes/
-│ │ ├── index.tsx # Home page
-│ │ ├── cart.tsx
-│ │ ├── category.tsx
-│ │ ├── checkout/
-│ │ │ ├── index.tsx
-│ │ │ ├── payment.tsx
-│ │ │ └── shipping.tsx
-│ │ ├── product.tsx
-│ │ ├── login.tsx
-│ │ ├── register.tsx
-│ │ └── forgotten-password.tsx
-│ │
-│ ├── components/ # Reusable and modular components
-│ │ ├── common/ # Buttons, Inputs, Modals, etc.
-│ │ ├── layout/ # Header, Footer, Navbar, Layout
-│ │ ├── cart/
-│ │ ├── checkout/
-│ │ ├── product/
-│ │ └── category/
-│ │
-│ ├── context/ # Global context providers
-│ │ ├── AuthContext.tsx
-│ │ ├── CartContext.tsx
-│ │ └── ThemeContext.tsx
-│ │
-│ ├── hooks/ # Custom reusable hooks
-│ │ ├── useAuth.ts
-│ │ ├── useCart.ts
-│ │ ├── useFetch.ts
-│ │ └── useProductFilter.ts
-│ │
-│ ├── redux/ # Redux Toolkit setup
-│ │ ├── store.ts
-│ │ ├── slices/
-│ │ │ ├── authSlice.ts
-│ │ │ ├── cartSlice.ts
-│ │ │ ├── productSlice.ts
-│ │ │ └── categorySlice.ts
-│ │
-│ ├── types/ # TypeScript types & interfaces
-│ │ ├── auth.types.ts
-│ │ ├── cart.types.ts
-│ │ ├── product.types.ts
-│ │ ├── category.types.ts
-│ │ └── order.types.ts
-│ │
-│ ├── utils/ # Helper functions
-│ │ ├── formatPrice.ts
-│ │ ├── validateEmail.ts
-│ │ ├── handleError.ts
-│ │ └── constants.ts
-│ │
-│ ├── styles/ # Global & Tailwind setup
-│ │ ├── globals.css
-│ │ ├── variables.css
-│ │ └── tailwind.css
-│ │
-│ ├── main.tsx # Vite entry point
-│ └── vite-env.d.ts
-│
-├── .env # Environment variables (Supabase keys)
+clothing-ecommerce/
+├── .env
+├── package.json
+├── README.md
 ├── tsconfig.json
 ├── vite.config.ts
-├── package.json
-└── README.md
+├── public/
+│   ├── favicon.ico
+│   └── (static assets: logo, images, icons)
+└── src/
+    ├── api/
+    │   ├── auth.api.ts
+    │   ├── cart.api.ts
+    │   ├── orders.api.ts
+    │   ├── products.api.ts
+    │   └── supabaseClient.ts
+    ├── app/
+    │   ├── App.tsx
+    │   └── routes/
+    │       ├── cart.tsx
+    │       ├── category.tsx
+    │       ├── checkout/
+    │       │   ├── index.tsx
+    │       │   ├── payment.tsx
+    │       │   └── shipping.tsx
+    │       ├── forgotten-password.tsx
+    │       ├── index.tsx (Home page)
+    │       ├── login.tsx
+    │       ├── product.tsx
+    │       └── register.tsx
+    ├── components/
+    │   ├── cart/
+    │   ├── category/
+    │   ├── checkout/
+    │   ├── common/ (Buttons, Inputs, Modals, etc.)
+    │   ├── layout/ (Header, Footer, Navbar, Layout)
+    │   └── product/
+    ├── context/
+    │   ├── AuthContext.tsx
+    │   ├── CartContext.tsx
+    │   └── ThemeContext.tsx
+    ├── hooks/
+    │   ├── useAuth.ts
+    │   ├── useCart.ts
+    │   ├── useFetch.ts
+    │   └── useProductFilter.ts
+    ├── redux/
+    │   ├── slices/
+    │   │   ├── authSlice.ts
+    │   │   ├── cartSlice.ts
+    │   │   ├── categorySlice.ts
+    │   │   └── productSlice.ts
+    │   └── store.ts
+    ├── styles/
+    │   ├── globals.css
+    │   ├── tailwind.css
+    │   └── variables.css
+    ├── types/
+    │   ├── auth.types.ts
+    │   ├── cart.types.ts
+    │   ├── category.types.ts
+    │   ├── order.types.ts
+    │   └── product.types.ts
+    ├── utils/
+    │   ├── constants.ts
+    │   ├── formatPrice.ts
+    │   ├── handleError.ts
+    │   └── validateEmail.ts
+    ├── main.tsx
+    └── vite-env.d.ts
 
 
 ---
