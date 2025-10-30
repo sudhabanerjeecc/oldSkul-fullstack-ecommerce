@@ -21,8 +21,8 @@ A modern, scalable, and production-ready e-commerce platform for clothing brands
 ---
 
 ## 🏗️ Folder Structure
-
-clothing-ecommerce/
+```bash
+oldSkul-ecommerce/
 ├── .env
 ├── package.json
 ├── README.md
@@ -93,6 +93,7 @@ clothing-ecommerce/
     ├── main.tsx
     └── vite-env.d.ts
 
+```
 
 ---
 
