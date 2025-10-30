@@ -22,14 +22,14 @@ A modern, scalable, and production-ready e-commerce platform for clothing brands
 
 ## 🏗️ Folder Structure
 
-clothing-ecommerce/
-│
-├── public/ # Static assets (logo, images, icons)
-│
-├── src/
-│ ├── api/ # API layer for Supabase requests
-│ │ ├── supabaseClient.ts
-│ │ ├── auth.api.ts
+## clothing-ecommerce/
+## │
+## ├── public/ # Static assets (logo, images, icons)
+## │
+## ├── src/
+## │ ├── api/ # API layer for Supabase requests
+## │ │ ├── supabaseClient.ts
+## │ │ ├── auth.api.ts
 │ │ ├── products.api.ts
 │ │ ├── cart.api.ts
 │ │ └── orders.api.ts
@@ -116,7 +116,7 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 🪄 Setup & Installation
 1️⃣ Clone the repository
-git clone https://github.com/your-username/clothing-ecommerce.git
+git clone https://github.com/sudhabanerjeecc/oldSkul-fullstack-ecommerce.git
 cd clothing-ecommerce
 
 2️⃣ Install dependencies
